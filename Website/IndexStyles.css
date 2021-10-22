@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  margin-top: -23px;
+}
+
+h1.WelcomeHeader{
+  font-family: 'Bebas Neue', cursive;
+  padding: 10px;
+  margin-top: 90px;
+  font-size: 300%;
+}
+
+ul.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4a4a4a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 2px 1px #4a4a4a;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #888;
+  color: white;
+}
