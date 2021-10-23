@@ -20,6 +20,8 @@ ul.menu{
   top: 0;
   width: 100%;
   box-shadow: 0px 2px 1px #4a4a4a;
+  border-bottom: solid;
+  box-shadow: 0px 2px 2px #000;
 }
 
 li{
@@ -47,4 +49,11 @@ li a:hover:not(.active) {
 .button:hover {
   background-color: #888;
   color: white;
+}
+
+.MenuLink{
+  border-right: solid;
+  border-color: black;
+  box-shadow: -1px 0px 3px #000;
+  height: 100%;
 }
